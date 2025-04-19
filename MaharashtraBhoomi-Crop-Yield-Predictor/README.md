@@ -18,8 +18,3 @@
 - **Deployment**: Deployed on a local server for development purposes.
 
 ## Installation
-
-### 1. Clone the repository:
-
-```bash
-git clone https://github.com/harishchavandke01/MaharashtraBhoomi.git
