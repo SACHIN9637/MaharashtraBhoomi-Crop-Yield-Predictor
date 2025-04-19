@@ -16,5 +16,3 @@
 - **Backend**: Flask (Python)
 - **Machine Learning**: Model developed with machine learning Algorithm (XGboost)
 - **Deployment**: Deployed on a local server for development purposes.
-
-## Installation
