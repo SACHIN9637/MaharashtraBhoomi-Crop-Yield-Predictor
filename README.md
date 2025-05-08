@@ -33,26 +33,40 @@ cd MaharashtraBhoomi-Crop-Yield-Predictor
 
 ###2. Backend Setup (Flask)
 cd backend
+
 python -m venv venv
+
 .\venv\Scripts\activate     # On Windows
+
 pip install -r requirements.txt
+
 python app.py
 
 
 ###3. Frontend Setup (React)
 cd ../frontend
+
 npm install
+
 npm start
+
 
 ##📁 Project Structure
 MaharashtraBhoomi-Crop-Yield-Predictor/
 ├── backend/             # Flask API backend
+
 │   ├── app.py
+
 │   ├── model/
+
 │   └── requirements.txt
+
 ├── frontend/            # React app
+
 │   ├── src/
+
 │   └── public/
+
 └── README.md
 
 
