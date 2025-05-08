@@ -31,16 +31,15 @@ MaharashtraBhoomi is a web application designed to help farmers predict crop yie
 git clone https://github.com/SACHIN9637/MaharashtraBhoomi-Crop-Yield-Predictor.git
 cd MaharashtraBhoomi-Crop-Yield-Predictor
 
-###2. Backend Setup (Flask)
+### 2. Backend Setup (Flask)
+
+```bash
 cd backend
-
 python -m venv venv
-
-.\venv\Scripts\activate     # On Windows
-
+.\venv\Scripts\activate    # On Windows
 pip install -r requirements.txt
-
 python app.py
+
 
 
 ###3. Frontend Setup (React)
