@@ -27,7 +27,7 @@ MaharashtraBhoomi is a web application designed to help farmers predict crop yie
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/SACHIN9637/MaharashtraBhoomi-Crop-Yield-Predictor.git
 cd MaharashtraBhoomi-Crop-Yield-Predictor
 
@@ -45,4 +45,24 @@ npm install
 npm start
 
 
+###📁 Project Structure
+plaintext
+Copy
+Edit
+MaharashtraBhoomi-Crop-Yield-Predictor/
+├── backend/             # Flask API backend
+│   ├── app.py
+│   ├── model/
+│   └── requirements.txt
+├── frontend/            # React app
+│   ├── src/
+│   └── public/
+└── README.md
+
+
+##👤 Maintainer
+👨‍💻 Sachin Ganesh Jadhav
+🎓 B.Tech, TY Computer Engineering, MIT Academy of Engineering, Pune
+🧑‍🏫 Vice President, Mozilla Club MITAOE
+📧 Email: sachin.jadhav@mitaoe.ac.in
 
