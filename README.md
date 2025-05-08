@@ -1,3 +1,4 @@
+
 # 🌾 MaharashtraBhoomi: Crop Yield Predictor
 
 MaharashtraBhoomi is a web application designed to help farmers predict crop yields based on various parameters like rainfall, area, district, season, and soil quality. The app leverages machine learning models to provide accurate predictions of crop production, aiding farmers in making informed decisions about their agricultural activities.
@@ -27,28 +28,34 @@ MaharashtraBhoomi is a web application designed to help farmers predict crop yie
 
 ### 1. Clone the Repository
 
-
+```bash
 git clone https://github.com/SACHIN9637/MaharashtraBhoomi-Crop-Yield-Predictor.git
 cd MaharashtraBhoomi-Crop-Yield-Predictor
+```
 
-###2. Backend Setup (Flask)
+### 2. Backend Setup (Flask)
+
+```bash
 cd backend
 python -m venv venv
-.\venv\Scripts\activate    # On Windows
+.env\Scriptsctivate    # On Windows
 pip install -r requirements.txt
 python app.py
+```
 
+### 3. Frontend Setup (React)
 
-###3.Frontend Setup (React)
+```bash
 cd ../frontend
 npm install
 npm start
+```
 
+---
 
-###📁 Project Structure
-plaintext
-Copy
-Edit
+## 📁 Project Structure
+
+```plaintext
 MaharashtraBhoomi-Crop-Yield-Predictor/
 ├── backend/             # Flask API backend
 │   ├── app.py
@@ -58,11 +65,13 @@ MaharashtraBhoomi-Crop-Yield-Predictor/
 │   ├── src/
 │   └── public/
 └── README.md
+```
 
+---
 
-##👤 Maintainer
-👨‍💻 Sachin Ganesh Jadhav
-🎓 B.Tech, TY Computer Engineering, MIT Academy of Engineering, Pune
-🧑‍🏫 Vice President, Mozilla Club MITAOE
+## 👤 Maintainer
+
+👨‍💻 **Sachin Ganesh Jadhav**  
+🎓 B.Tech, TY Computer Engineering, MIT Academy of Engineering, Pune  
+🧑‍🏫 Vice President, Mozilla Club MITAOE  
 📧 Email: sachin.jadhav@mitaoe.ac.in
-
